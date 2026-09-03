@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 
 function Waterfall({
   frequency,
-  power,
+
 }: {
   frequency: number;
-  power: number;
 }) {
   const [rows, setRows] = useState<number[][]>([]);
 

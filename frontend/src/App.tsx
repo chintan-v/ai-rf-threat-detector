@@ -168,7 +168,7 @@ function App() {
                <h3>LIVE WATERFALL</h3>
               <Waterfall
                 frequency={signal?.frequency_mhz ?? 2450}
-                power={signal?.power_db ?? -80}
+              
               />
           </div>
           <div className="threat-chart-section">
